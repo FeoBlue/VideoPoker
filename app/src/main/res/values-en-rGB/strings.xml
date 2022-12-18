@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Video Poker</string>
+    <string name="comb8">Flush Royal</string>
+    <string name="comb7">Straight Flush</string>
+    <string name="comb6">Four of a Kind</string>
+    <string name="comb5">Full House</string>
+    <string name="comb4">Flush</string>
+    <string name="comb3">Straight</string>
+    <string name="comb2">Three of a Kind</string>
+    <string name="comb1">Two Pairs</string>
+    <string name="comb0">2 Jacks or Higher</string>
+    <string name="betPlus">BET +</string>
+    <string name="betMinus">BET -</string>
+    <string name="balanceCount">Your balance: $</string>
+    <string name="change">CHANGE</string>
+    <string name="hold">HOLD</string>
+    <string name="changeAll">CHANGE ALL</string>
+    <string name="startGame">START GAME</string>
+    <string name="getCards">GET CARDS</string>
+    <string name="dealAgain">DEAL AGAIN</string>
+    <string name="messageComb0">No winning combination</string>
+    <string name="messageComb1">Pair - Jacks or higher</string>
+    <string name="messageComb2">Two Pairs</string>
+    <string name="messageComb3">Three of a kind</string>
+    <string name="messageComb4">Straight</string>
+    <string name="messageComb6">Flush</string>
+    <string name="messageComb9">Full House</string>
+    <string name="messageComb25">Four of a kind</string>
+    <string name="messageComb50">Straight Flush</string>
+    <string name="messageComb250">Flush Royal</string>
+    <string name="chooseCards">Choose cards to change.</string>
+    <string name="pressStart">Press button to start Video Poker!</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Відео Покер</string>
+    <string name="comb8">Роял-флаш</string>
+    <string name="comb7">Стрейт-флаш</string>
+    <string name="comb6">Каре (4 однакових)</string>
+    <string name="comb5">Фул-хаус</string>
+    <string name="comb4">Флаш</string>
+    <string name="comb3">Стріт</string>
+    <string name="comb2">Трійка</string>
+    <string name="comb1">Дві пари</string>
+    <string name="comb0">2 Валета або вище</string>
+    <string name="betPlus">СТАВКА +</string>
+    <string name="betMinus">СТАВКА -</string>
+    <string name="balanceCount">Ваш баланс: $</string>
+    <string name="change">ЗМІНИТИ</string>
+    <string name="hold">ЛИШИТИ</string>
+    <string name="changeAll">ЗМІНИТИ ВСІ</string>
+    <string name="startGame">ПОЧАТИ ГРУ</string>
+    <string name="getCards">ОТРИМАТИ НОВІ</string>
+    <string name="dealAgain">ЗДАТИ ЗНОВУ</string>
+    <string name="messageComb0">Виграшної комбінації немає</string>
+    <string name="messageComb1">Пара - Валети або вище</string>
+    <string name="messageComb2">Дві Пари</string>
+    <string name="messageComb3">Трійка - три однакових</string>
+    <string name="messageComb4">Стріт - карти по порядку</string>
+    <string name="messageComb6">Флаш - карти однієї масті</string>
+    <string name="messageComb9">Фул-хаус - трійка та пара</string>
+    <string name="messageComb25">Каре - 4 однакових карти</string>
+    <string name="messageComb50">Стріт-флаш - по порядку та однієї масті</string>
+    <string name="messageComb250">Роял-флаш!</string>
+    <string name="chooseCards">Оберіть карти для їх зміни.</string>
+    <string name="pressStart">Натіснить кнопку щоб зіграти у Відео Покер!</string>
+</resources>

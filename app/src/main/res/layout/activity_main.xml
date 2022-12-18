@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="379dp"
+        android:layout_height="22dp"
+        android:text="Hello World!"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82"
+        tools:ignore="ExtraText" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="335dp"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65999997">
+
+        <ImageView
+            android:id="@+id/cardPic0"
+            android:layout_width="65dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bk" />
+
+        <ImageView
+            android:id="@+id/cardPic1"
+            android:layout_width="65dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bk" />
+
+        <ImageView
+            android:id="@+id/cardPic2"
+            android:layout_width="65dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bk" />
+
+        <ImageView
+            android:id="@+id/cardPic3"
+            android:layout_width="65dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bk" />
+
+        <ImageView
+            android:id="@+id/cardPic4"
+            android:layout_width="65dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bk" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="335dp"
+        android:layout_height="42dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.01999998">
+
+        <LinearLayout
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/hold0"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:paddingStart="0dp"
+                android:paddingEnd="0dp"
+                android:text="CHANGE"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/hold1"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:paddingStart="0dp"
+                android:paddingEnd="0dp"
+                android:text="CHANGE"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/hold2"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:paddingStart="0dp"
+                android:paddingEnd="0dp"
+                android:text="CHANGE"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/hold3"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:paddingStart="0dp"
+                android:paddingEnd="0dp"
+                android:text="CHANGE"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/hold4"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:paddingStart="0dp"
+                android:paddingEnd="0dp"
+                android:text="CHANGE"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="335dp"
+        android:layout_height="256dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="24dp"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/comb8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="Flush Royal"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin8Mult0"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="250"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin8Mult1"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="500"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin8Mult2"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="750"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin8Mult3"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="1000"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin8Mult4"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="1250"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/comb7"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="Straight Flush"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin7Mult0"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="50"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin7Mult1"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="100"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin7Mult2"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="150"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin7Mult3"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="200"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin7Mult4"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="250"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/comb6"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="Four of a Kind"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin6Mult0"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="25"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin6Mult1"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="50"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin6Mult2"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="75"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin6Mult3"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="100"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin6Mult4"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="125"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/comb5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="Full House"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin5Mult0"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="9"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin5Mult1"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="18"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin5Mult2"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="27"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin5Mult3"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="36"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin5Mult4"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="45"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/comb4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="Flush"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin4Mult0"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="6"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin4Mult1"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="12"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin4Mult2"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="18"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin4Mult3"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="24"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin4Mult4"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="30"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/comb3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="Straight"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin3Mult0"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="4"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin3Mult1"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="8"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin3Mult2"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="12"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin3Mult3"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="16"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin3Mult4"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="20"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/comb2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="Three of a Kind"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin2Mult0"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="3"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin2Mult1"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="6"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin2Mult2"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="9"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin2Mult3"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="12"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin2Mult4"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="15"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/comb1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="Two Pairs"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin1Mult0"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="2"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin1Mult1"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="4"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin1Mult2"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="6"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin1Mult3"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="8"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin1Mult4"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="10"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/comb0"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="2 Jacks or Higher"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin0Mult0"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="1"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin0Mult1"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="2"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin0Mult2"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="3"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin0Mult3"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="4"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabWin0Mult4"
+                android:layout_width="25dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:text="5"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/betMinus"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="0dp"
+                        android:paddingEnd="0dp"
+                        android:text="BET -"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"
+                    android:orientation="horizontal"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/betPlus"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="0dp"
+                        android:paddingEnd="0dp"
+                        android:text="BET +"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="335dp"
+        android:layout_height="42dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.61">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonChangeAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHANGE ALL" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonDeal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="START GAME" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="335dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🇬🇧" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/balanceString"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="Your balance: $50" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
